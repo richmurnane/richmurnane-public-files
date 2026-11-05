@@ -10,6 +10,7 @@
 -- =====================
 -- SET SESSION CONTEXT
 -- =====================
+USE SECONDARY ROLES NONE; --add to repo!
 USE ROLE ACCOUNTADMIN;
 USE WAREHOUSE ACME_WH;
 USE DATABASE ACME;
