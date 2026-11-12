@@ -201,6 +201,9 @@ CREATE OR REPLACE AGENT ACME.ANALYTICS.ACME_AGENT
   tool_resources:
     CampaignAnalyst:
       semantic_view: "ACME.ANALYTICS.ACME_CAMPAIGN_MODEL"
+      execution_environment:
+        type: "warehouse"
+        warehouse: "ACME_WH"
   $$;
 
 -- 3.2 Verify the agent was created
